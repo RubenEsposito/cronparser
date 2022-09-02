@@ -7,5 +7,12 @@
 
 import Foundation
 
-print("Hello, World!")
+let cronParser = CronParser()
+let consoleIO = ConsoleIO()
+
+if CommandLine.argc < 2 {
+    consoleIO.printUsage()
+} else {
+    cronParser.start()
+}
 

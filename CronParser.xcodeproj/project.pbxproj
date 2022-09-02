@@ -8,6 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		6C70779628C0A9EA007F2961 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C70779528C0A9EA007F2961 /* main.swift */; };
+		6C70779D28C0AB13007F2961 /* ConsoleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C70779C28C0AB13007F2961 /* ConsoleIO.swift */; };
+		6C70779F28C0ACC7007F2961 /* CronParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C70779E28C0ACC7007F2961 /* CronParser.swift */; };
+		6C7D8ACE28C0BA3500ACB5E7 /* CronParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7D8ACD28C0BA3500ACB5E7 /* CronParserTests.swift */; };
+		6C7D8AD628C0D38300ACB5E7 /* CronField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7D8AD528C0D38300ACB5E7 /* CronField.swift */; };
+		6C7D8AD828C0D3A500ACB5E7 /* TimeArgument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7D8AD728C0D3A500ACB5E7 /* TimeArgument.swift */; };
+		6C7D8ADA28C11B7A00ACB5E7 /* CronFieldParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7D8AD928C11B7A00ACB5E7 /* CronFieldParser.swift */; };
+		6C7D8AE128C16AE600ACB5E7 /* TimeArgumentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7D8AE028C16AE600ACB5E7 /* TimeArgumentTests.swift */; };
+		6C7D8AE228C16D9600ACB5E7 /* CronParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C70779E28C0ACC7007F2961 /* CronParser.swift */; };
+		6C7D8AE328C16D9C00ACB5E7 /* CronFieldParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7D8AD928C11B7A00ACB5E7 /* CronFieldParser.swift */; };
+		6C7D8AE428C16D9E00ACB5E7 /* CronField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7D8AD528C0D38300ACB5E7 /* CronField.swift */; };
+		6C7D8AE528C16DA100ACB5E7 /* TimeArgument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7D8AD728C0D3A500ACB5E7 /* TimeArgument.swift */; };
+		6C7D8AE728C16DA700ACB5E7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C70779528C0A9EA007F2961 /* main.swift */; };
+		6C7D8AE828C16DA900ACB5E7 /* ConsoleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C70779C28C0AB13007F2961 /* ConsoleIO.swift */; };
+		6C7D8AEA28C16ED400ACB5E7 /* CronFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7D8AE928C16ED400ACB5E7 /* CronFieldTests.swift */; };
+		6C7D8AEC28C172BF00ACB5E7 /* CronFieldParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7D8AEB28C172BF00ACB5E7 /* CronFieldParserTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,12 +38,29 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6C70779228C0A9EA007F2961 /* CronParser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CronParser; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C70779228C0A9EA007F2961 /* cronparser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cronparser; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C70779528C0A9EA007F2961 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		6C70779C28C0AB13007F2961 /* ConsoleIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleIO.swift; sourceTree = "<group>"; };
+		6C70779E28C0ACC7007F2961 /* CronParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CronParser.swift; sourceTree = "<group>"; };
+		6C7D8ACB28C0BA3500ACB5E7 /* CronParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CronParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C7D8ACD28C0BA3500ACB5E7 /* CronParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CronParserTests.swift; sourceTree = "<group>"; };
+		6C7D8AD528C0D38300ACB5E7 /* CronField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CronField.swift; sourceTree = "<group>"; };
+		6C7D8AD728C0D3A500ACB5E7 /* TimeArgument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeArgument.swift; sourceTree = "<group>"; };
+		6C7D8AD928C11B7A00ACB5E7 /* CronFieldParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CronFieldParser.swift; sourceTree = "<group>"; };
+		6C7D8AE028C16AE600ACB5E7 /* TimeArgumentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeArgumentTests.swift; sourceTree = "<group>"; };
+		6C7D8AE928C16ED400ACB5E7 /* CronFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CronFieldTests.swift; sourceTree = "<group>"; };
+		6C7D8AEB28C172BF00ACB5E7 /* CronFieldParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CronFieldParserTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		6C70778F28C0A9EA007F2961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C7D8AC828C0BA3500ACB5E7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				6C70779428C0A9EA007F2961 /* CronParser */,
+				6C7D8ACC28C0BA3500ACB5E7 /* CronParserTests */,
 				6C70779328C0A9EA007F2961 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,7 +82,8 @@
 		6C70779328C0A9EA007F2961 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6C70779228C0A9EA007F2961 /* CronParser */,
+				6C70779228C0A9EA007F2961 /* cronparser */,
+				6C7D8ACB28C0BA3500ACB5E7 /* CronParserTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,9 +91,57 @@
 		6C70779428C0A9EA007F2961 /* CronParser */ = {
 			isa = PBXGroup;
 			children = (
+				6C7D8AD428C0D36A00ACB5E7 /* Parsers */,
+				6C7D8AD328C0D36100ACB5E7 /* Data Objects */,
 				6C70779528C0A9EA007F2961 /* main.swift */,
+				6C70779C28C0AB13007F2961 /* ConsoleIO.swift */,
 			);
 			path = CronParser;
+			sourceTree = "<group>";
+		};
+		6C7D8ACC28C0BA3500ACB5E7 /* CronParserTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C7D8ADF28C16AC500ACB5E7 /* Test Parsers */,
+				6C7D8ADE28C16AB400ACB5E7 /* Test Models */,
+			);
+			path = CronParserTests;
+			sourceTree = "<group>";
+		};
+		6C7D8AD328C0D36100ACB5E7 /* Data Objects */ = {
+			isa = PBXGroup;
+			children = (
+				6C7D8AD528C0D38300ACB5E7 /* CronField.swift */,
+				6C7D8AD728C0D3A500ACB5E7 /* TimeArgument.swift */,
+			);
+			path = "Data Objects";
+			sourceTree = "<group>";
+		};
+		6C7D8AD428C0D36A00ACB5E7 /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				6C70779E28C0ACC7007F2961 /* CronParser.swift */,
+				6C7D8AD928C11B7A00ACB5E7 /* CronFieldParser.swift */,
+			);
+			path = Parsers;
+			sourceTree = "<group>";
+		};
+		6C7D8ADE28C16AB400ACB5E7 /* Test Models */ = {
+			isa = PBXGroup;
+			children = (
+				6C7D8AE028C16AE600ACB5E7 /* TimeArgumentTests.swift */,
+				6C7D8AE928C16ED400ACB5E7 /* CronFieldTests.swift */,
+			);
+			path = "Test Models";
+			sourceTree = "<group>";
+		};
+		6C7D8ADF28C16AC500ACB5E7 /* Test Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				6C7D8ACD28C0BA3500ACB5E7 /* CronParserTests.swift */,
+				6C7D8AEB28C172BF00ACB5E7 /* CronFieldParserTests.swift */,
+			);
+			path = "Test Parsers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -79,8 +161,25 @@
 			);
 			name = CronParser;
 			productName = CronParser;
-			productReference = 6C70779228C0A9EA007F2961 /* CronParser */;
+			productReference = 6C70779228C0A9EA007F2961 /* cronparser */;
 			productType = "com.apple.product-type.tool";
+		};
+		6C7D8ACA28C0BA3500ACB5E7 /* CronParserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C7D8ACF28C0BA3500ACB5E7 /* Build configuration list for PBXNativeTarget "CronParserTests" */;
+			buildPhases = (
+				6C7D8AC728C0BA3500ACB5E7 /* Sources */,
+				6C7D8AC828C0BA3500ACB5E7 /* Frameworks */,
+				6C7D8AC928C0BA3500ACB5E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CronParserTests;
+			productName = CronParserTests;
+			productReference = 6C7D8ACB28C0BA3500ACB5E7 /* CronParserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -93,6 +192,9 @@
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
 					6C70779128C0A9EA007F2961 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6C7D8ACA28C0BA3500ACB5E7 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
@@ -111,16 +213,49 @@
 			projectRoot = "";
 			targets = (
 				6C70779128C0A9EA007F2961 /* CronParser */,
+				6C7D8ACA28C0BA3500ACB5E7 /* CronParserTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C7D8AC928C0BA3500ACB5E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6C70778E28C0A9EA007F2961 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C70779F28C0ACC7007F2961 /* CronParser.swift in Sources */,
 				6C70779628C0A9EA007F2961 /* main.swift in Sources */,
+				6C7D8ADA28C11B7A00ACB5E7 /* CronFieldParser.swift in Sources */,
+				6C7D8AD828C0D3A500ACB5E7 /* TimeArgument.swift in Sources */,
+				6C7D8AD628C0D38300ACB5E7 /* CronField.swift in Sources */,
+				6C70779D28C0AB13007F2961 /* ConsoleIO.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C7D8AC728C0BA3500ACB5E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7D8AE828C16DA900ACB5E7 /* ConsoleIO.swift in Sources */,
+				6C7D8AE228C16D9600ACB5E7 /* CronParser.swift in Sources */,
+				6C7D8AE728C16DA700ACB5E7 /* main.swift in Sources */,
+				6C7D8ACE28C0BA3500ACB5E7 /* CronParserTests.swift in Sources */,
+				6C7D8AE128C16AE600ACB5E7 /* TimeArgumentTests.swift in Sources */,
+				6C7D8AEC28C172BF00ACB5E7 /* CronFieldParserTests.swift in Sources */,
+				6C7D8AEA28C16ED400ACB5E7 /* CronFieldTests.swift in Sources */,
+				6C7D8AE528C16DA100ACB5E7 /* TimeArgument.swift in Sources */,
+				6C7D8AE428C16D9E00ACB5E7 /* CronField.swift in Sources */,
+				6C7D8AE328C16D9C00ACB5E7 /* CronFieldParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,7 +379,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = cronparser;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -253,7 +388,35 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = cronparser;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6C7D8AD028C0BA3500ACB5E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RubenMarin.CronParserTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6C7D8AD128C0BA3500ACB5E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RubenMarin.CronParserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -275,6 +438,15 @@
 			buildConfigurations = (
 				6C70779A28C0A9EA007F2961 /* Debug */,
 				6C70779B28C0A9EA007F2961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C7D8ACF28C0BA3500ACB5E7 /* Build configuration list for PBXNativeTarget "CronParserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C7D8AD028C0BA3500ACB5E7 /* Debug */,
+				6C7D8AD128C0BA3500ACB5E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
